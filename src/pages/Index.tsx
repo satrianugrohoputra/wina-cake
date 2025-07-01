@@ -9,6 +9,7 @@ import MenuSection from '@/components/MenuSection';
 import OrderSection from '@/components/OrderSection';
 import Gallery from '@/components/Gallery';
 import Contact from '@/components/Contact';
+import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,6 +17,10 @@ const Index = () => {
   useEffect(() => {
     setIsVisible(true);
   }, []);
+
+  const handleInstagramClick = () => {
+    window.open('https://instagram.com/wina.cake', '_blank');
+  };
 
   return (
     <div className="min-h-screen bg-vanilla font-inter">
@@ -29,11 +34,25 @@ const Index = () => {
         <Contact />
       </main>
 
-      <footer className="bg-peach py-6 text-center">
-        <p className="text-gray-700 text-sm">
-          © 2024 Wina Cake. All rights reserved. Sweet moments delivered with love.
-        </p>
+      <footer className="bg-peach py-8 text-center">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center space-y-4">
+            <Button
+              onClick={handleInstagramClick}
+              variant="ghost"
+              className="bg-peach/50 hover:bg-peach hover:text-peach/80 transition-colors duration-200 px-6 py-3"
+            >
+              <Instagram className="mr-2" size={20} />
+              Follow us @wina.cake
+            </Button>
+            <p className="text-gray-700 text-sm">
+              © 2024 Wina Cake. All rights reserved. Sweet moments delivered with love.
+            </p>
+          </div>
+        </div>
       </footer>
+
+      <FloatingWhatsApp />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { MessageCircle } from 'lucide-react';
 
 interface MenuItem {
   id: number;
@@ -64,9 +65,9 @@ const MenuSection = () => {
   ];
 
   const handleOrderClick = (item: MenuItem) => {
-    const message = `Halo Wina Cake! Saya ingin memesan ${item.name}. Bisa info lebih lanjut?`;
+    const message = `Hi Wina Cake! Saya ingin memesan ${item.name}. Bisa info lebih lanjut tentang ukuran dan harga?`;
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/6281234567890?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/6281946252944?text=${encodedMessage}`, '_blank');
   };
 
   return (
@@ -119,6 +120,7 @@ const MenuSection = () => {
                   onClick={() => handleOrderClick(item)}
                   className="w-full bg-whatsapp hover:bg-whatsapp/90 text-white font-semibold min-h-[44px] transition-all duration-200 hover:scale-105"
                 >
+                  <MessageCircle className="mr-2" size={18} />
                   Order via WhatsApp
                 </Button>
               </CardContent>

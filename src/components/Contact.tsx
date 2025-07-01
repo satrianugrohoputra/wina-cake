@@ -1,5 +1,5 @@
 
-import { Instagram } from 'lucide-react';
+import { Instagram, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -7,11 +7,11 @@ const Contact = () => {
   const handleWhatsAppClick = () => {
     const message = "Halo Wina Cake! Saya ingin bertanya tentang lokasi dan jam operasional.";
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/6281234567890?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/6281946252944?text=${encodedMessage}`, '_blank');
   };
 
   const handleInstagramClick = () => {
-    window.open('https://instagram.com/winacake', '_blank');
+    window.open('https://instagram.com/wina.cake', '_blank');
   };
 
   return (
@@ -56,7 +56,7 @@ const Contact = () => {
 
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-2">Telepon</h4>
-                      <p className="text-gray-600">+62 812-3456-7890</p>
+                      <p className="text-gray-600">+62 819-4625-2944</p>
                     </div>
                   </div>
 
@@ -65,6 +65,7 @@ const Contact = () => {
                       onClick={handleWhatsAppClick}
                       className="bg-whatsapp hover:bg-whatsapp/90 text-white font-semibold min-h-[44px] transition-all duration-200 hover:scale-105 flex-1"
                     >
+                      <MessageCircle className="mr-2" size={18} />
                       Chat WhatsApp
                     </Button>
                     <Button 
@@ -72,8 +73,8 @@ const Contact = () => {
                       variant="outline"
                       className="border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white font-semibold min-h-[44px] transition-all duration-200 hover:scale-105 flex-1"
                     >
-                      <Instagram className="mr-2" size={20} />
-                      Instagram
+                      <Instagram className="mr-2" size={18} />
+                      Follow @wina.cake
                     </Button>
                   </div>
                 </CardContent>
