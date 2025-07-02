@@ -19,7 +19,7 @@ const Index = () => {
   }, []);
 
   const handleInstagramClick = () => {
-    window.open('https://instagram.com/wina.cake', '_blank');
+    window.open('https://instagram.com/winacakebekasi', '_blank');
   };
 
   return (
@@ -43,7 +43,7 @@ const Index = () => {
               className="bg-peach/50 hover:bg-peach hover:text-peach/80 transition-colors duration-200 px-6 py-3"
             >
               <Instagram className="mr-2" size={20} />
-              Follow us @wina.cake
+              Follow us @winacakebekasi
             </Button>
             <p className="text-gray-700 text-sm">
               © 2024 Wina Cake. All rights reserved. Sweet moments delivered with love.

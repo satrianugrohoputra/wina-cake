@@ -11,7 +11,7 @@ const Contact = () => {
   };
 
   const handleInstagramClick = () => {
-    window.open('https://instagram.com/wina.cake', '_blank');
+    window.open('https://instagram.com/winacakebekasi', '_blank');
   };
 
   return (
@@ -50,7 +50,7 @@ const Contact = () => {
                       <h4 className="font-semibold text-gray-800 mb-2">Jam Operasional</h4>
                       <p className="text-gray-600 leading-relaxed">
                         Senin - Sabtu: 08:00 - 17:00<br />
-                        Minggu: 10:00 - 17:30
+                        Minggu: 10:00 - 17:0
                       </p>
                     </div>
 
@@ -74,7 +74,7 @@ const Contact = () => {
                       className="border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white font-semibold min-h-[44px] transition-all duration-200 hover:scale-105 flex-1"
                     >
                       <Instagram className="mr-2" size={18} />
-                      Follow @wina.cake
+                      Follow @winacakebekasi
                     </Button>
                   </div>
                 </CardContent>
