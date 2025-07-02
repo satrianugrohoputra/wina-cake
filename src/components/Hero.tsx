@@ -45,7 +45,7 @@ const Hero = () => {
             <Button 
               variant="outline"
               size="lg"
-              onClick={() => window.open('https://wa.me/6281234567890?text=Halo%20Wina%20Cake,%20saya%20ingin%20bertanya%20tentang%20kue%20custom', '_blank')}
+              onClick={() => window.open('https://wa.me/6281946252944?text=Halo%20Wina%20Cake,%20saya%20ingin%20bertanya%20tentang%20kue%20custom', '_blank')}
               className="border-whatsapp text-whatsapp hover:bg-whatsapp hover:text-white font-semibold px-8 py-4 text-lg min-h-[44px] transition-all duration-200 hover:scale-105"
             >
               Order Sekarang

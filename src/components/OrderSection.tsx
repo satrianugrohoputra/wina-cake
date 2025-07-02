@@ -6,7 +6,7 @@ const OrderSection = () => {
   const handleWhatsAppClick = () => {
     const message = "Halo Wina Cake! Saya ingin bertanya tentang menu dan cara order.";
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/6281234567890?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/6281946252944?text=${encodedMessage}`, '_blank');
   };
 
   return (

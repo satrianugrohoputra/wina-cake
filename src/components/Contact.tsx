@@ -40,17 +40,17 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-2">Alamat</h4>
                       <p className="text-gray-600 leading-relaxed">
-                        Jl. Mawar No. 123<br />
-                        Kelurahan Sukamaju<br />
-                        Jakarta Selatan 12345
+                        Grand Wisata, Cluster Spring Fiesta<br />
+                        Kabupaten Bekasi<br />
+                        Tambun Selatan 17510
                       </p>
                     </div>
 
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-2">Jam Operasional</h4>
                       <p className="text-gray-600 leading-relaxed">
-                        Senin - Sabtu: 08:00 - 20:00<br />
-                        Minggu: 09:00 - 18:00
+                        Senin - Sabtu: 08:00 - 17:00<br />
+                        Minggu: 10:00 - 17:30
                       </p>
                     </div>
 
@@ -87,7 +87,7 @@ const Contact = () => {
                 <CardContent className="p-0 h-full">
                   <div className="h-full bg-gray-200 flex items-center justify-center relative">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.666!2d106.8229!3d-6.1944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9b4a0!2sJakarta%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1640000000000!5m2!1sen!2sid"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4704.252567228185!2d107.03829517499099!3d-6.2868069937021405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698fbe05d3630f%3A0xac4ffdbaf2c85e5b!2sCluster%20Spring%20Fiesta!5e1!3m2!1sid!2sid!4v1751441011808!5m2!1sid!2sid"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
