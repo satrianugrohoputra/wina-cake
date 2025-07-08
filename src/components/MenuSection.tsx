@@ -32,19 +32,20 @@ const MenuSection = () => {
     },
     {
       id: 3,
-      name: "Strawberry Shortcake",
-      image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      slicePrice: "Rp 30.000",
-      wholePrice: "Rp 220.000",
-      description: "Fresh strawberries with vanilla sponge"
+      name: "Dimsum",
+      image: "https://images.unsplash.com/photo-1526318896980-cf78c0882475?auto=format&fit=crop&w=500&q=80",
+      // Nama properti harga diperbaiki
+      wholeBoxPrice: "Rp 75.000 (50pcs)",
+      description: "Dimsum dengan rasa yang lezat dan nikmat, sudah include sausnya"
     },
     {
       id: 4,
-      name: "Tiramisu Cake",
+      name: "Kue soes",
       image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      slicePrice: "Rp 35.000",
-      wholePrice: "Rp 250.000",
-      description: "Italian-style coffee flavored dessert"
+      // Nama properti harga diperbaiki
+      piecePrice: "Rp 5.000",
+      portionPrice: "Rp 50.000 (10pcs)",
+      description: "Kue soes dengan kulit yang tipis namun isi fla manis yang melimpah dan enak"
     },
     {
       id: 5,
@@ -63,7 +64,7 @@ const MenuSection = () => {
       description: "Chocolate cake with cherries and cream"
     }
   ];
-
+  
   const handleOrderClick = (item: MenuItem) => {
     const message = `Hi Wina Cake! Saya ingin memesan ${item.name}. Bisa info lebih lanjut tentang ukuran dan harga?`;
     const encodedMessage = encodeURIComponent(message);
@@ -78,7 +79,7 @@ const MenuSection = () => {
             Menu Kue
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Pilihan cake dan pastry terbaik, dibuat fresh setiap hari dengan bahan berkualitas premium
+            Pilihan cake dan pastry terbaik, dibuat secara fresh dengan bahan berkualitas premium, hanya menerima pesanan yang sudah diorder terlebih dahulu.
           </p>
         </div>
 
