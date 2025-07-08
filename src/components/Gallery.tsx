@@ -30,13 +30,13 @@ const Gallery = () => {
     {
       id: 3,
       image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      quote: "Delivery cepat dan packaging rapi. Cake nya fresh dan taste nya juara!",
+      quote: "Delivery cepat dan packaging rapi. Cake nya fresh dan dimsum nya taste daging nya juara!",
       customer: "Linda W."
     },
     {
       id: 4,
       image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      quote: "Wina Cake selalu jadi pilihan utama untuk acara keluarga. Recommended!",
+      quote: "Wina Cake selalu jadi pilihan utama untuk berbagai kue dan dimsum. Recommended!",
       customer: "Ahmad R."
     }
   ];
