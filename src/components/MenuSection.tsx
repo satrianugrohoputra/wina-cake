@@ -33,18 +33,21 @@ const MenuSection = () => {
     {
       id: 3,
       name: "Dimsum",
-      image: "https://images.unsplash.com/photo-1526318896980-cf78c0882475?auto=format&fit=crop&w=500&q=80",
-      // Nama properti harga diperbaiki
-      wholeBoxPrice: "Rp 75.000 (50pcs)",
+      // GAMBAR DIPERBARUI
+      image: "https://images.unsplash.com/photo-1563245370-63ffc97abdbd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      // PROPERTI HARGA DISERAGAMKAN
+      slicePrice: "", // Dikosongkan karena tidak ada harga satuan
+      wholePrice: "Rp 75.000 (50pcs)",
       description: "Dimsum dengan rasa yang lezat dan nikmat, sudah include sausnya"
     },
     {
       id: 4,
       name: "Kue soes",
-      image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      // Nama properti harga diperbaiki
-      piecePrice: "Rp 5.000",
-      portionPrice: "Rp 50.000 (10pcs)",
+      // GAMBAR DIPERBARUI
+      image: "https://images.unsplash.com/photo-1719637953713-c7230b621487?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      // PROPERTI HARGA DISERAGAMKAN
+      slicePrice: "Rp 5.000", // piecePrice diubah menjadi slicePrice
+      wholePrice: "Rp 50.000 (10pcs)", // portionPrice diubah menjadi wholePrice
       description: "Kue soes dengan kulit yang tipis namun isi fla manis yang melimpah dan enak"
     },
     {
