@@ -35,7 +35,7 @@ const MenuSection = () => {
       name: "Dimsum",
       image: "https://images.unsplash.com/photo-1563245370-63ffc97abdbd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       slicePrice: "", // Dikosongkan karena tidak ada harga satuan
-      wholePrice: "Rp 75.000 (50pcs)",
+      wholePrice: "Rp 175.000 (50pcs)",
       description: "Dimsum dengan rasa yang lezat dan nikmat, sudah include sausnya"
     },
     {
@@ -43,7 +43,7 @@ const MenuSection = () => {
       name: "Kue soes",
       image: "https://images.unsplash.com/photo-1719637953713-c7230b621487?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       slicePrice: "Rp 5.000", // piecePrice diubah menjadi slicePrice
-      wholePrice: "Rp 50.000 (10pcs)", // portionPrice diubah menjadi wholePrice
+      wholePrice: "Rp 150.000 (30pcs)", // portionPrice diubah menjadi wholePrice
       description: "Kue soes dengan kulit yang tipis namun isi fla manis yang melimpah dan enak"
     },
     {
