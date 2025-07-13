@@ -4,7 +4,6 @@ Website for view menu that available such as Dimsum, Soes, Cakes, and other Swee
 Orders are get directed to via WhatsApp
 
 There are several ways of editing your application.
-
 **Use Lovable**
 
 Changes made via Lovable will be committed automatically to this repo.
