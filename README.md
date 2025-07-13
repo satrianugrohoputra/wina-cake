@@ -1,16 +1,11 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/004e564d-cf00-4f48-8751-319c198fd998
-
-## How can I edit this code?
+# Project info
+## Wina Cake Website
+Website for view menu that available such as Dimsum, Soes, Cakes, and other Sweets
+Orders are get directed to via WhatsApp
 
 There are several ways of editing your application.
 
 **Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/004e564d-cf00-4f48-8751-319c198fd998) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -59,10 +54,6 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/004e564d-cf00-4f48-8751-319c198fd998) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
