@@ -34,7 +34,7 @@ const MenuSection = () => {
       id: 3,
       name: "Dimsum",
       image: "https://images.unsplash.com/photo-1563245370-63ffc97abdbd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      slicePrice: "", // Dikosongkan karena tidak ada harga satuan
+      slicePrice: "",
       wholePrice: "Rp 175.000 (50pcs)",
       description: "Dimsum dengan rasa yang lezat dan nikmat, sudah include sausnya"
     },
@@ -42,8 +42,8 @@ const MenuSection = () => {
       id: 4,
       name: "Kue soes",
       image: "https://images.unsplash.com/photo-1719637953713-c7230b621487?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      slicePrice: "Rp 5.000", // piecePrice diubah menjadi slicePrice
-      wholePrice: "Rp 150.000 (30pcs)", // portionPrice diubah menjadi wholePrice
+      slicePrice: "Rp 5.000 (Min 30pcs)", // piecePrice diubah menjadi slicePrice
+      wholePrice: "Rp 150.000 ", // portionPrice diubah menjadi wholePrice
       description: "Kue soes dengan kulit yang tipis namun isi fla manis yang melimpah dan enak"
     },
     {
@@ -58,7 +58,7 @@ const MenuSection = () => {
       id: 6,
       name: "Black Forest Cake",
       image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      slicePrice: "Rp 33.000",
+      slicePrice: "Rp 45.000",
       wholePrice: "Rp 240.000",
       description: "Chocolate cake with cherries and cream"
     }
