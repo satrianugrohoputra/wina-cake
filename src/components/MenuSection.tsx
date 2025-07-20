@@ -48,11 +48,11 @@ const MenuSection = () => {
     },
     {
       id: 5,
-      name: "Lemon Cheesecake",
-      image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      slicePrice: "Rp 32.000",
-      wholePrice: "Rp 230.000",
-      description: "Creamy cheesecake with lemon zest"
+      name: "Ketan Srikaya",
+      image: "/images/ketan.jpg",
+      slicePrice: "Rp 25.000",
+      wholePrice: "Rp 100.000",
+      description: "Rasa Ketan yang gurih bergabung dengan srikaya yang manis, Menjadi perpaduan yang cocok dan enak saat dimakan"
     },
     {
       id: 6,
