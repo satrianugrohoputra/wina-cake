@@ -50,8 +50,8 @@ const MenuSection = () => {
       id: 5,
       name: "Ketan Srikaya",
       image: "/images/ketan.jpg",
-      slicePrice: "Rp 25.000",
-      wholePrice: "Rp 100.000",
+      slicePrice: "(PerLoyang Only)",
+      wholePrice: "Rp 100.000 (Uk.20×20)",
       description: "Rasa Ketan yang gurih bergabung dengan srikaya yang manis, Menjadi perpaduan yang cocok dan enak saat dimakan"
     },
     {
